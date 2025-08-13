@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Special Gift</title>
+    <script>
+ var audio = document.getElementById("myAudio");
+  audio.play();
+        function btn() {
+            alert("aww i\'m sad rn:<");
+        }
+const yesButton = document.getElementById('yes-button');
+const music = document.getElementById('music');
+
+// Add an event listener to the button
+yesButton.addEventListener('click', () => {
+  // Play the music when the button is clicked
+  music.play();
+});
+    </script>
+</head>
+<audio id="myAudio">
+  <source src="burnomars.mp3" type="audio/mpeg">
+ 
+</audio>
+<body>
+    <div class="greetings">
+
+        <span>HI</span>
+        <span>MISS</span>
+        <span>YOU'RE</span>
+        <span>SO</span>
+        <span>PRETTY</span>
+      
+       
+
+    </div>
+    <div class="description">
+        <span>Do you want a special gift from Monmon? If Yes, Please click yes button to see a virtual gift mwaps<3 </span>
+    </div>
+    <div class="button">
+        <button class="yes" id="yes-button">
+            <a href="flower.html">Yes</a>
+            
+        </button><audio id="music" src="burnomars.mp3" type="audio/mp3"></audio>
+        <button class="no" onclick="btn()">No</button>
+    </div>
+</body>
+
+
+</html>
